@@ -19,13 +19,15 @@
   margin-top: 40px;
 }
 .homepage {
-  background-image: url('./assets//background.jpeg');
   background-position: top;
   height: 97vh;
-  margin-top: -28px;
 }
 .tournamentContainer {
   padding-top: 38px;
+  max-height: 720px;
+  overflow: scroll;
+  width: 500px;
+  margin: 0 auto;
 }
 .tournamentPanelTable {
   width: 500px;
@@ -93,7 +95,7 @@
   .form-control {
     width: 300px;
     margin: 0 auto;
-    background: #1f1d20;
+    background: #ffffff;
   }
   .collapse:not(.show) {
     display: contents;
